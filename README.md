@@ -18,13 +18,13 @@ Corridor capacities, travel times, and penalties for stairs are included in the 
 Elevators are excluded in accordance with fire safety regulations.
 
 ## Code structure
-- `code/main_nofig.py`: computes the optimal evacuation flow for the baseline scenario and for a disruption scenario where corridor A→B is closed.
+- `code/main.py`: computes the optimal evacuation flow for the baseline scenario and for a disruption scenario where corridor A→B is closed.
 - `code/figures.py`: generates the figures used in the report.
 
 ## Figures
-- `figure1.png`: network representation of the building with corridor capacities.
-- `figure2.png`: optimal evacuation flows under baseline conditions.
-- `figure3.png`: optimal evacuation flows after closing corridor A→B.
+- `figure_1.png`: network representation of the building with corridor capacities.
+- `figure_2.png`: optimal evacuation flows under baseline conditions.
+- `figure_3.png`: optimal evacuation flows after closing corridor A→B.
 
 ## How to run the code
 Install the required Python libraries:
